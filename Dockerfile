@@ -1,4 +1,4 @@
-FROM docker.io/library/rust:latest
+FROM quay.io/redhat-user-workloads/rust-sig-tenant/rust-builder:c53edfd5aa61d7aeb3447ae5b088061300d9b61d
 
 WORKDIR /app
 
